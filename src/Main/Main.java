@@ -12,10 +12,16 @@ public class Main {
         messenger.sendMessage();*/
         String name = "Rehab";
         int Age = 25;
-        System.out.println(PrintName() +"Rehab");
+        System.out.println(PrintName());
+        System.out.println(PrintAge());
+
     }
     public static String PrintName(){
         System.out.println("Hello" );
-        return "rehab";
+        return "Rehab";
     }
-}`
+    public static String PrintAge(){
+        System.out.println("Hello,your age is  " );
+        return "25";
+    }
+}
